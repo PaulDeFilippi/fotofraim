@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F7765961DBFCFE40083CDD2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7765951DBFCFE40083CDD2 /* AuthService.swift */; };
+		4FABCA7C1DC128540039A874 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FABCA7B1DC128540039A874 /* DataService.swift */; };
 		4FF4F19B1DBD62A80028CBC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F19A1DBD62A80028CBC2 /* AppDelegate.swift */; };
-		4FF4F19D1DBD62A80028CBC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F19C1DBD62A80028CBC2 /* ViewController.swift */; };
+		4FF4F19D1DBD62A80028CBC2 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F19C1DBD62A80028CBC2 /* CameraVC.swift */; };
 		4FF4F1A01DBD62A80028CBC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4F19E1DBD62A80028CBC2 /* Main.storyboard */; };
 		4FF4F1A21DBD62A80028CBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4F1A11DBD62A80028CBC2 /* Assets.xcassets */; };
 		4FF4F1A51DBD62A80028CBC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4F1A31DBD62A80028CBC2 /* LaunchScreen.storyboard */; };
+		4FF4F1B11DBD68FB0028CBC2 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F1AE1DBD68FB0028CBC2 /* AAPLCameraViewController.m */; };
+		4FF4F1B21DBD68FB0028CBC2 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F1B01DBD68FB0028CBC2 /* AAPLPreviewView.m */; };
+		4FF4F1B91DBE8D7A0028CBC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4F1B81DBE8D7A0028CBC2 /* GoogleService-Info.plist */; };
+		4FF4F1BB1DBEF8190028CBC2 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F1BA1DBEF8190028CBC2 /* RoundTextField.swift */; };
+		4FF4F1BD1DBF0DEA0028CBC2 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F1BC1DBF0DEA0028CBC2 /* RoundedButton.swift */; };
+		4FF4F1BF1DBF17DA0028CBC2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4F1BE1DBF17DA0028CBC2 /* LoginVC.swift */; };
+		DB02C7B8275C3A15DC49B64C /* Pods_fotofraim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94231C6786557471AD4B17F3 /* Pods_fotofraim.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CD87EFD788842AD626499DD /* Pods-fotofraim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotofraim.release.xcconfig"; path = "Pods/Target Support Files/Pods-fotofraim/Pods-fotofraim.release.xcconfig"; sourceTree = "<group>"; };
+		455D24767AA7FF75172FF328 /* Pods-fotofraim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotofraim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fotofraim/Pods-fotofraim.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7765951DBFCFE40083CDD2 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4FABCA7B1DC128540039A874 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4FF4F1971DBD62A80028CBC2 /* fotofraim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotofraim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF4F19A1DBD62A80028CBC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FF4F19C1DBD62A80028CBC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FF4F19C1DBD62A80028CBC2 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		4FF4F19F1DBD62A80028CBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FF4F1A11DBD62A80028CBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FF4F1A41DBD62A80028CBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FF4F1A61DBD62A80028CBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF4F1AC1DBD68FB0028CBC2 /* fotofraim-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fotofraim-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FF4F1AD1DBD68FB0028CBC2 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		4FF4F1AE1DBD68FB0028CBC2 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		4FF4F1AF1DBD68FB0028CBC2 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		4FF4F1B01DBD68FB0028CBC2 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
+		4FF4F1B71DBD76910028CBC2 /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
+		4FF4F1B81DBE8D7A0028CBC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FF4F1BA1DBEF8190028CBC2 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		4FF4F1BC1DBF0DEA0028CBC2 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4FF4F1BE1DBF17DA0028CBC2 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		94231C6786557471AD4B17F3 /* Pods_fotofraim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fotofraim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB02C7B8275C3A15DC49B64C /* Pods_fotofraim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DD7637ED0A6B19ECCFE242B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				455D24767AA7FF75172FF328 /* Pods-fotofraim.debug.xcconfig */,
+				2CD87EFD788842AD626499DD /* Pods-fotofraim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F7765941DBFCFC80083CDD2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F7765951DBFCFE40083CDD2 /* AuthService.swift */,
+				4FABCA7B1DC128540039A874 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		4FF4F18E1DBD62A80028CBC2 = {
 			isa = PBXGroup;
 			children = (
 				4FF4F1991DBD62A80028CBC2 /* fotofraim */,
 				4FF4F1981DBD62A80028CBC2 /* Products */,
+				2DD7637ED0A6B19ECCFE242B /* Pods */,
+				5EE97D17040673D85673AC4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,65 @@
 		4FF4F1991DBD62A80028CBC2 /* fotofraim */ = {
 			isa = PBXGroup;
 			children = (
+				4F7765941DBFCFC80083CDD2 /* Services */,
+				4FF4F1B61DBD76700028CBC2 /* Protocols */,
+				4FF4F1B31DBD69180028CBC2 /* Model */,
+				4FF4F1B41DBD69220028CBC2 /* VIew */,
+				4FF4F1B51DBD692A0028CBC2 /* Controller */,
 				4FF4F19A1DBD62A80028CBC2 /* AppDelegate.swift */,
-				4FF4F19C1DBD62A80028CBC2 /* ViewController.swift */,
 				4FF4F19E1DBD62A80028CBC2 /* Main.storyboard */,
 				4FF4F1A11DBD62A80028CBC2 /* Assets.xcassets */,
 				4FF4F1A31DBD62A80028CBC2 /* LaunchScreen.storyboard */,
 				4FF4F1A61DBD62A80028CBC2 /* Info.plist */,
+				4FF4F1B81DBE8D7A0028CBC2 /* GoogleService-Info.plist */,
+				4FF4F1AC1DBD68FB0028CBC2 /* fotofraim-Bridging-Header.h */,
 			);
 			path = fotofraim;
+			sourceTree = "<group>";
+		};
+		4FF4F1B31DBD69180028CBC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4FF4F1B41DBD69220028CBC2 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4F1AF1DBD68FB0028CBC2 /* AAPLPreviewView.h */,
+				4FF4F1B01DBD68FB0028CBC2 /* AAPLPreviewView.m */,
+				4FF4F1BA1DBEF8190028CBC2 /* RoundTextField.swift */,
+				4FF4F1BC1DBF0DEA0028CBC2 /* RoundedButton.swift */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		4FF4F1B51DBD692A0028CBC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4F1AD1DBD68FB0028CBC2 /* AAPLCameraViewController.h */,
+				4FF4F1AE1DBD68FB0028CBC2 /* AAPLCameraViewController.m */,
+				4FF4F19C1DBD62A80028CBC2 /* CameraVC.swift */,
+				4FF4F1BE1DBF17DA0028CBC2 /* LoginVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4FF4F1B61DBD76700028CBC2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4F1B71DBD76910028CBC2 /* AAPLCameraVCDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		5EE97D17040673D85673AC4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94231C6786557471AD4B17F3 /* Pods_fotofraim.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FF4F1A91DBD62A80028CBC2 /* Build configuration list for PBXNativeTarget "fotofraim" */;
 			buildPhases = (
+				12F4F96E936B5C535553B55F /* [CP] Check Pods Manifest.lock */,
 				4FF4F1931DBD62A80028CBC2 /* Sources */,
 				4FF4F1941DBD62A80028CBC2 /* Frameworks */,
 				4FF4F1951DBD62A80028CBC2 /* Resources */,
+				525F745C107CA04D73C3640A /* [CP] Embed Pods Frameworks */,
+				2A25FD2BDA17587BCFA41D3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +196,7 @@
 					4FF4F1961DBD62A80028CBC2 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = V7Q65FMKJ4;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF4F1A51DBD62A80028CBC2 /* LaunchScreen.storyboard in Resources */,
+				4FF4F1B91DBE8D7A0028CBC2 /* GoogleService-Info.plist in Resources */,
 				4FF4F1A21DBD62A80028CBC2 /* Assets.xcassets in Resources */,
 				4FF4F1A01DBD62A80028CBC2 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +233,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12F4F96E936B5C535553B55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A25FD2BDA17587BCFA41D3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fotofraim/Pods-fotofraim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525F745C107CA04D73C3640A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fotofraim/Pods-fotofraim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FF4F1931DBD62A80028CBC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FF4F19D1DBD62A80028CBC2 /* ViewController.swift in Sources */,
+				4FABCA7C1DC128540039A874 /* DataService.swift in Sources */,
+				4FF4F1BB1DBEF8190028CBC2 /* RoundTextField.swift in Sources */,
+				4FF4F1BD1DBF0DEA0028CBC2 /* RoundedButton.swift in Sources */,
+				4FF4F1BF1DBF17DA0028CBC2 /* LoginVC.swift in Sources */,
+				4FF4F19D1DBD62A80028CBC2 /* CameraVC.swift in Sources */,
 				4FF4F19B1DBD62A80028CBC2 /* AppDelegate.swift in Sources */,
+				4FF4F1B11DBD68FB0028CBC2 /* AAPLCameraViewController.m in Sources */,
+				4FF4F1B21DBD68FB0028CBC2 /* AAPLPreviewView.m in Sources */,
+				4F7765961DBFCFE40083CDD2 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +413,35 @@
 		};
 		4FF4F1AA1DBD62A80028CBC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455D24767AA7FF75172FF328 /* Pods-fotofraim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = V7Q65FMKJ4;
 				INFOPLIST_FILE = fotofraim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.fotofraim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fotofraim/fotofraim-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4FF4F1AB1DBD62A80028CBC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD87EFD788842AD626499DD /* Pods-fotofraim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = V7Q65FMKJ4;
 				INFOPLIST_FILE = fotofraim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.fotofraim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fotofraim/fotofraim-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +465,7 @@
 				4FF4F1AB1DBD62A80028CBC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

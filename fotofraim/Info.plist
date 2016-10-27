@@ -31,8 +31,13 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>FotoFraim needs to access the internal camera to function properly.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>FotoFraim needs to access the internal microphone to function properly.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>FotoFraim needs to access your photo library to function properly.</string>
 </dict>
 </plist>
