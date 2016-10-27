@@ -145,7 +145,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tC-2h-6pZ" customClass="RoundedButton" customModule="fotofraim" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tC-2h-6pZ" customClass="RoundedButton" customModule="fotofraim" customModuleProvider="target">
+                                <frame key="frameInset" minX="55" minY="100" width="265" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Ud8-5f-TUc"/>
                                     <constraint firstAttribute="width" constant="265" id="zbb-3i-8wi"/>
@@ -172,7 +173,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9tC-2h-6pZ" firstAttribute="top" secondItem="ixT-py-CSw" secondAttribute="bottom" constant="20" id="40P-sB-AcC"/>
                             <constraint firstItem="QHa-Rz-qAq" firstAttribute="top" secondItem="7PY-by-ufy" secondAttribute="bottom" id="4RR-s5-qSx"/>
                             <constraint firstAttribute="trailing" secondItem="7PY-by-ufy" secondAttribute="trailing" id="ETg-fg-V3P"/>
                             <constraint firstAttribute="trailing" secondItem="SzY-2N-mkk" secondAttribute="trailing" id="JPi-s5-rzd"/>
@@ -198,6 +198,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTd-cO-AbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="800.79999999999995" y="37.331334332833585"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ya9-Bp-DOu">
+            <objects>
+                <viewController id="x4l-GM-UKI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AQb-k4-3pk"/>
+                        <viewControllerLayoutGuide type="bottom" id="SnA-QB-ajc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W23-7f-7mP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wnz-rq-YTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740" y="38"/>
         </scene>
     </scenes>
     <resources>
